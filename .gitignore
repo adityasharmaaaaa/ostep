@@ -1,0 +1,27 @@
+# Compiled programs
+/introduction-to-operating-systems/cpu
+/introduction-to-operating-systems/mem
+/introduction-to-operating-systems/threads
+/introduction-to-operating-systems/io
+
+# C build files
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+
+# Runtime and debug files
+core
+core.*
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor temporary files
+*.swp
+*.swo
+*~
