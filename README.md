@@ -18,7 +18,13 @@ Concurrency means dealing with more than one thing during the same period of tim
 
 ## Repository
 
-- [`introduction-to-operating-systems/`](introduction-to-operating-systems/README.md) — first experiments with CPU time, memory, threads, and file I/O.
+### 📖 Introduction
+- [`introduction-to-operating-systems/`](introduction-to-operating-systems/README.md) — What is an OS? The three big themes. Code experiments: CPU, memory, threads, I/O.
+  - [`chapter-1-notes.md`](introduction-to-operating-systems/chapter-1-notes.md) — Revision notes: virtualisation, concurrency, persistence, design goals, history.
+
+### 🖥️ Part I — Virtualisation
+- [`virtualisation/`](virtualisation/README.md) — Overview of CPU and memory virtualisation (the peach analogy, chapter index).
+  - [`chapter-04-abstraction-the-process/`](virtualisation/chapter-04-abstraction-the-process/README.md) — What is a process? Machine state, process API, process states, PCB, context switching.
 
 ## Build and run
 
