@@ -3,6 +3,10 @@
 /introduction-to-operating-systems/mem
 /introduction-to-operating-systems/threads
 /introduction-to-operating-systems/io
+/virtualisation/chapter-05-interlude:process-api/p1
+/virtualisation/chapter-05-interlude:process-api/p2
+/virtualisation/chapter-05-interlude:process-api/p3
+/virtualisation/chapter-05-interlude:process-api/p4
 
 # C build files
 *.o
