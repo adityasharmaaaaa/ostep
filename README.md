@@ -1,10 +1,8 @@
 # Operating Systems — My Notes
 
-> **⚠️ Personal notes — not a textbook, not a tutorial, not a project.**
->
-> These are my own notes taken while reading *Operating Systems: Three Easy Pieces* (OSTEP). I dictate my understanding out loud and use an LLM to help clean up the wording and formatting. The ideas, questions, and conclusions are mine. The AI helps me not write like a sleep-deprived caveman.
->
-> I'm doing this purely for myself. No assignment, no audience, no pressure. Just trying to actually understand operating systems instead of pretending I do.
+These are my personal notes as I work through *Operating Systems: Three Easy Pieces* (OSTEP). I dictate my understanding after each reading session and use an LLM to help clean up the wording and structure. The ideas, conclusions, and questions are mine — the AI just helps me not write like a sleep-deprived caveman.
+
+Doing this purely for myself. No assignment, no deadline, no audience. Just trying to genuinely understand operating systems.
 
 ## What I am learning
 
@@ -27,7 +25,8 @@ Concurrency means dealing with more than one thing during the same period of tim
 ### 🖥️ Part I — Virtualisation
 - [`virtualisation/`](virtualisation/README.md) — Overview of CPU and memory virtualisation (the peach analogy, chapter index).
   - [`chapter-04-abstraction-the-process/`](virtualisation/chapter-04-abstraction-the-process/README.md) — What is a process? Machine state, process API, process states, PCB, context switching.
-  - [`homework/`](virtualisation/homework/README.md) — `process-run.py` simulator: all 8 questions answered with output, explanation, and key lessons.
+    - [`homework/`](virtualisation/chapter-04-abstraction-the-process/homework/README.md) — `process-run.py` simulator: all 8 questions answered with output, explanation, and key lessons.
+  - [`chapter-05-interlude:process-api/`](virtualisation/chapter-05-interlude:process-api/README.md) — `fork`, `exec`, `wait`. How the shell works. Output redirection and pipes explained.
 
 ## Build and run
 
