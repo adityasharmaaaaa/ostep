@@ -1,8 +1,10 @@
 # Operating Systems — My Notes
 
-These are my personal notes while I work through *Operating Systems: Three Easy Pieces* (OSTEP). I am writing them to help me revise what I read and what I try on my Mac.
-
-AI was used to help make some wording clearer and easier to revise. The notes are for my own learning, and I will keep updating them as I work through the book.
+> **⚠️ Personal notes — not a textbook, not a tutorial, not a project.**
+>
+> These are my own notes taken while reading *Operating Systems: Three Easy Pieces* (OSTEP). I dictate my understanding out loud and use an LLM to help clean up the wording and formatting. The ideas, questions, and conclusions are mine. The AI helps me not write like a sleep-deprived caveman.
+>
+> I'm doing this purely for myself. No assignment, no audience, no pressure. Just trying to actually understand operating systems instead of pretending I do.
 
 ## What I am learning
 
@@ -25,6 +27,7 @@ Concurrency means dealing with more than one thing during the same period of tim
 ### 🖥️ Part I — Virtualisation
 - [`virtualisation/`](virtualisation/README.md) — Overview of CPU and memory virtualisation (the peach analogy, chapter index).
   - [`chapter-04-abstraction-the-process/`](virtualisation/chapter-04-abstraction-the-process/README.md) — What is a process? Machine state, process API, process states, PCB, context switching.
+  - [`homework/`](virtualisation/homework/README.md) — `process-run.py` simulator: all 8 questions answered with output, explanation, and key lessons.
 
 ## Build and run
 
