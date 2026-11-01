@@ -321,6 +321,22 @@ clang -Wall -Wextra p4.c -o p4
 
 ---
 
+## Chapter 5 Coding Homework
+
+The homework exercises for this chapter (`hw1.c` through `hw8.c`) are located in [`homework/`](homework/README.md).
+- [`hw1.c`](homework/hw1.c) — Address space and variable isolation on `fork()`.
+- [`hw2.c`](homework/hw2.c) — Shared open file descriptors and concurrent writes.
+- [`hw3.c`](homework/hw3.c) — Synchronizing child-first output without `wait()`.
+- [`hw4.c`](homework/hw4.c) — Testing all 6 `exec()` variants (`execl`, `execle`, `execlp`, `execv`, `execvp`, `execvP`).
+- [`hw5.c`](homework/hw5.c) — `wait()` return values and calling `wait()` inside child.
+- [`hw6.c`](homework/hw6.c) — `waitpid()` advantages and `WNOHANG` non-blocking checks.
+- [`hw7.c`](homework/hw7.c) — Closing `STDOUT_FILENO` and libc `printf()` buffering behavior.
+- [`hw8.c`](homework/hw8.c) — Connecting two children with `pipe()` and `dup2()`.
+
+Read the comprehensive walkthrough in the [Homework README](homework/README.md).
+
+---
+
 ## Self-Check Before Next Chapter
 
 1. `fork()` returns different values to parent and child. What does each get? Why?
