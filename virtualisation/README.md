@@ -41,9 +41,9 @@ The virtualisation section of OSTEP breaks into two big parts:
 ### 🖥️ CPU Virtualisation
 How the OS makes many programs feel like they each have a dedicated CPU.
 
-- **Chapter 4 — Abstraction: The Process** ← *you are here*
-- Chapter 5 — Process API (`fork`, `exec`, `wait`)
-- Chapter 6 — Limited Direct Execution (how the OS stays in control)
+- [Chapter 4 — Abstraction: The Process](chapter-04-abstraction-the-process/README.md)
+- [Chapter 5 — Process API (`fork`, `exec`, `wait`)](chapter-05-interlude:process-api/README.md)
+- [Chapter 6 — Mechanism: Limited Direct Execution](chapter-06-mechanism-limited-direct-execution/README.md)
 - Chapter 7 — CPU Scheduling: Introduction
 - Chapter 8 — Multi-Level Feedback Queue (MLFQ)
 - Chapter 9 — Lottery Scheduling
