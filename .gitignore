@@ -7,6 +7,18 @@
 /virtualisation/chapter-05-interlude:process-api/p2
 /virtualisation/chapter-05-interlude:process-api/p3
 /virtualisation/chapter-05-interlude:process-api/p4
+/virtualisation/chapter-05-interlude:process-api/homework/hw1
+/virtualisation/chapter-05-interlude:process-api/homework/hw2
+/virtualisation/chapter-05-interlude:process-api/homework/hw3
+/virtualisation/chapter-05-interlude:process-api/homework/hw4
+/virtualisation/chapter-05-interlude:process-api/homework/hw5
+/virtualisation/chapter-05-interlude:process-api/homework/hw6
+/virtualisation/chapter-05-interlude:process-api/homework/hw7
+/virtualisation/chapter-05-interlude:process-api/homework/hw8
+/virtualisation/chapter-05-interlude:process-api/homework/output.txt
+
+# Editor / IDE configuration
+.vscode/
 
 # C build files
 *.o
