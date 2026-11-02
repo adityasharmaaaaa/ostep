@@ -29,6 +29,7 @@ Concurrency means dealing with more than one thing during the same period of tim
   - [`chapter-05-interlude:process-api/`](virtualisation/chapter-05-interlude:process-api/README.md) — `fork`, `exec`, `wait`. How the shell works. Output redirection and pipes explained.
     - [`homework/`](virtualisation/chapter-05-interlude:process-api/homework/README.md) — 8 practical programs on fork isolation, shared descriptors, synchronization without wait, exec variants, wait/waitpid, stdout closing, and pipe chaining.
   - [`chapter-06-mechanism-limited-direct-execution/`](virtualisation/chapter-06-mechanism-limited-direct-execution/README.md) — Limited Direct Execution. Dual CPU modes, system calls, trap table, the kernel stack, timer interrupts, context switching, and the baby-proofing analogy.
+    - [`homework/`](virtualisation/chapter-06-mechanism-limited-direct-execution/homework/README.md) — Measuring OS costs: timer resolution, system call overhead (~342 ns), and process context switch latency (~1.72 μs).
 
 ## Build and run
 

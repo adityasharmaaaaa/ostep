@@ -351,6 +351,17 @@ To wrap all these mechanisms together in one intuitive picture, think of Limited
 
 ---
 
+## Chapter 6 Measurement Homework
+
+The code and benchmarks measuring system call and context switch costs are in [`homework/`](homework/README.md):
+- [`timer_precision.c`](homework/timer_precision.c) — Evaluates timer resolution (`gettimeofday`).
+- [`syscall_benchmark.c`](homework/syscall_benchmark.c) — Measures pure null system call cost (**~341.74 ns** on Apple Silicon M1).
+- [`context_switch.c`](homework/context_switch.c) — Measures process context switch cost using 2-pipe ping-pong (**~1,718.99 ns** on Apple Silicon M1).
+
+Read the complete breakdown and analysis in the [Homework README](homework/README.md).
+
+---
+
 ## Quick Self-Check Before Next Chapter
 
 1. What is the fundamental difference between **User Mode** and **Kernel Mode**?
