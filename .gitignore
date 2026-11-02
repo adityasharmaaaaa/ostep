@@ -16,6 +16,9 @@
 /virtualisation/chapter-05-interlude:process-api/homework/hw7
 /virtualisation/chapter-05-interlude:process-api/homework/hw8
 /virtualisation/chapter-05-interlude:process-api/homework/output.txt
+/virtualisation/chapter-06-mechanism-limited-direct-execution/homework/syscall_benchmark
+/virtualisation/chapter-06-mechanism-limited-direct-execution/homework/context_switch
+/virtualisation/chapter-06-mechanism-limited-direct-execution/homework/timer_precision
 
 # Editor / IDE configuration
 .vscode/
