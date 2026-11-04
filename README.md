@@ -32,6 +32,7 @@ Concurrency means dealing with more than one thing during the same period of tim
     - [`homework/`](virtualisation/chapter-06-mechanism-limited-direct-execution/homework/README.md) — Measuring OS costs: timer resolution, system call overhead (~342 ns), and process context switch latency (~1.72 μs).
   - [`chapter-07-scheduling-introduction/`](virtualisation/chapter-07-scheduling-introduction/README.md) — CPU Scheduling Introduction. The 5 toy assumptions, FIFO and the convoy effect, SJF, STCF, response time vs. turnaround time, Round Robin time slicing, and I/O overlap.
     - [`homework/`](virtualisation/chapter-07-scheduling-introduction/homework/README.md) — `scheduler.py` simulator: all 7 questions answered with execution traces, convoy effect comparisons, and mathematical response time derivations.
+  - [`chapter-08-scheduling-multi-level-feedback-queue/`](virtualisation/chapter-08-scheduling-multi-level-feedback-queue/README.md) — The Multi-Level Feedback Queue (MLFQ). How MLFQ learns from history, the 5 core rules, defeating gaming attacks via time allotments, and the priority boost voodoo constant.
 
 ## Build and run
 

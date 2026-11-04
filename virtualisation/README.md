@@ -45,7 +45,7 @@ How the OS makes many programs feel like they each have a dedicated CPU.
 - [Chapter 5 — Process API (`fork`, `exec`, `wait`)](chapter-05-interlude:process-api/README.md)
 - [Chapter 6 — Mechanism: Limited Direct Execution](chapter-06-mechanism-limited-direct-execution/README.md)
 - [Chapter 7 — Scheduling: Introduction](chapter-07-scheduling-introduction/README.md)
-- Chapter 8 — Multi-Level Feedback Queue (MLFQ)
+- [Chapter 8 — Multi-Level Feedback Queue (MLFQ)](chapter-08-scheduling-multi-level-feedback-queue/README.md)
 - Chapter 9 — Lottery Scheduling
 - Chapter 10 — Multi-CPU Scheduling
 
