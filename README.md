@@ -31,6 +31,7 @@ Concurrency means dealing with more than one thing during the same period of tim
   - [`chapter-06-mechanism-limited-direct-execution/`](virtualisation/chapter-06-mechanism-limited-direct-execution/README.md) — Limited Direct Execution. Dual CPU modes, system calls, trap table, the kernel stack, timer interrupts, context switching, and the baby-proofing analogy.
     - [`homework/`](virtualisation/chapter-06-mechanism-limited-direct-execution/homework/README.md) — Measuring OS costs: timer resolution, system call overhead (~342 ns), and process context switch latency (~1.72 μs).
   - [`chapter-07-scheduling-introduction/`](virtualisation/chapter-07-scheduling-introduction/README.md) — CPU Scheduling Introduction. The 5 toy assumptions, FIFO and the convoy effect, SJF, STCF, response time vs. turnaround time, Round Robin time slicing, and I/O overlap.
+    - [`homework/`](virtualisation/chapter-07-scheduling-introduction/homework/README.md) — `scheduler.py` simulator: all 7 questions answered with execution traces, convoy effect comparisons, and mathematical response time derivations.
 
 ## Build and run
 

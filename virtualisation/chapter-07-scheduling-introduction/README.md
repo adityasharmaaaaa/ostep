@@ -411,6 +411,16 @@ This is the legendary **Multi-Level Feedback Queue (MLFQ)**—the subject of Cha
 
 ---
 
+## Chapter 7 Simulation Homework
+
+The simulation exercises testing FIFO, SJF, and Round Robin using `scheduler.py` are in [`homework/`](homework/README.md):
+- [`scheduler.py`](homework/scheduler.py) — The Python scheduling simulator.
+- Answers to all 7 homework questions, including mathematical derivations of worst-case response times ($T_{\text{worst}} = (N-1) \times q$), convoy effect demonstrations, and turnaround time trade-offs.
+
+Read the complete walkthrough and trace outputs in the [Homework README](homework/README.md).
+
+---
+
 ## Quick Self-Check Before Next Chapter
 
 1. What is the mathematical definition of **Turnaround Time**? What about **Response Time**?
